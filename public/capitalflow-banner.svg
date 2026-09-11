@@ -1,0 +1,42 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="90" y1="0" x2="440" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#86EFAC"/>
+      <stop offset="1" stop-color="#7DD3FC"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="550" y1="0" x2="1230" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="0.5" stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="420" rx="32" fill="url(#bg)"/>
+  <circle cx="1160" cy="80" r="250" fill="url(#accent)" opacity="0.14"/>
+  <circle cx="1030" cy="340" r="180" fill="#22C55E" opacity="0.08"/>
+
+  <g opacity="0.95">
+    <rect x="80" y="90" width="110" height="110" rx="28" fill="url(#brand)"/>
+    <path d="M120 150H150V173C150 184.046 158.954 193 170 193H191V217H170C147.909 217 130 199.091 130 177V150H120Z" fill="#041620"/>
+    <path d="M131 147H161V170H131V147Z" fill="#041620"/>
+    <path d="M153 121H190V145H153V121Z" fill="#041620"/>
+  </g>
+
+  <g>
+    <text x="230" y="152" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="3">CAPITALFLOW</text>
+    <text x="230" y="224" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800">Carteira de</text>
+    <text x="230" y="286" fill="#7DD3FC" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800">Finanças &amp; Investimentos</text>
+    <text x="230" y="332" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">Dashboard financeiro, insights de economia e simulação de patrimônio.</text>
+  </g>
+
+  <g opacity="0.95">
+    <rect x="820" y="112" width="300" height="180" rx="20" fill="rgba(15,23,42,0.7)" stroke="rgba(148,163,184,0.22)"/>
+    <text x="850" y="165" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Saldo total</text>
+    <text x="850" y="220" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="800">R$ 3.780</text>
+    <text x="850" y="255" fill="#86EFAC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">+8,4% vs. mês anterior</text>
+  </g>
+</svg>
